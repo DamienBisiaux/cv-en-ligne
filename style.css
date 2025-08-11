@@ -50,3 +50,80 @@ h3 {
   padding-bottom: 0.3rem;
   margin-bottom: 1rem;
 }
+
+/* Section haute du CV */
+
+.box-top {
+  background-color: #17abb3;
+  text-align: center;
+  padding: 20px;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20rem;
+}
+
+.profile-link {
+  display: inline-block;
+  cursor: zoom-in;
+}
+
+.profile-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.profile-link:hover .profile-image {
+  transform: scale(1.05);
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.p1 {
+  color: white;
+  font-family: 'Raleway1', sans-serif;
+  font-size: 40px;
+  margin: 0;
+}
+
+.p2 {
+  color: white;
+  font-family: 'Raleway3';
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 3px 0 0 0;
+}
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px 40px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.icon-item {
+  color: white;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: opacity 0.3s ease;
+}
+
+.icon-item:hover {
+  opacity: 0.7;
+}
